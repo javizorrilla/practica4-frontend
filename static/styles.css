@@ -1,0 +1,44 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+h1 {
+    color: #333;
+    margin-top: 0;
+    padding-top: 20px;
+    text-align: center;
+}
+
+h2 {
+    color: #333;
+    margin-top: 0;
+    padding-top: 20px;
+    text-align: center;
+    font-size: xx-large;
+}
+
+.flex-column {
+    text-align: center;
+    display: flex; 
+    flex-direction: column; 
+    align-items: center;
+}
+
+.optionsWeather {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding-left: 20px;
+    font-size: 16px;
+}
+
+.weatherData {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 20px;
+    margin: 20px;   
+}
